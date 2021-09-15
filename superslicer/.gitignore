@@ -1,6 +1,7 @@
 cache
 snapshots
 *.idx
+.DS_Store
 
 # Local slicer configuration
 SuperSlicer.ini
