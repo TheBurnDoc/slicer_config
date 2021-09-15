@@ -1,4 +1,9 @@
-SuperSlicer.ini
 cache
 snapshots
 *.idx
+
+# Local slicer configuration
+SuperSlicer.ini
+
+# Printer connectivity data 
+physical_printer
