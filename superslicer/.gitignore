@@ -1,5 +1,6 @@
 cache
 snapshots
 vendor
+physical_printer
 .DS_Store
 SuperSlicer.ini
