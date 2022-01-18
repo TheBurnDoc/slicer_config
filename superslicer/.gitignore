@@ -1,8 +1,5 @@
 cache
 snapshots
-*.idx
-*.bak
+vendor
 .DS_Store
-
-# Printer connectivity data 
-physical_printer
+SuperSlicer.ini
