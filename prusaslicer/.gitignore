@@ -1,0 +1,8 @@
+cache
+snapshots
+vendor
+physical_printer
+shapes
+.DS_Store
+PrusaSlicer.ini
+PrusaSlicer.ini.bak
