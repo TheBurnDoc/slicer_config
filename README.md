@@ -6,8 +6,13 @@ For these slicers, there are specific `.gitignore` files that have several direc
 
 ### PrusaSlicer
 
-#### Linux
- - TODO
+#### Linux (native)
+ - Location: `~/.config/PrusaSlicer`
+ - Command: `ln -s ~/.config/PrusaSlicer prusaslicer`
+
+#### Linux (Snap)
+ - Location: `~/snap/prusa-slicer/current/.config/PrusaSlicer`
+ - Command: `ln -s ~/snap/prusa-slicer/current/.config/PrusaSlicer prusaslicer`
  
 #### macOS
  - TODO
