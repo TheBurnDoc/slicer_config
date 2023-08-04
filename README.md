@@ -1,36 +1,23 @@
 # Slicer Configurations
 Configurations for my 3D printer slicers.
 
-## Slic3r Deriviates
+## PrusaSlicer & SuperSlicer
 For these slicers, there are specific `.gitignore` files that have several directories in that the slicer generates but do not make sense to be version controlled.
 
-### PrusaSlicer
+For SuperSlicer replace `PrusaSlicer` and `prusaslicer` with `SuperSlicer` and `superslicer`.
 
 #### Linux (native)
  - Location: `~/.config/PrusaSlicer`
- - Command: `ln -s ~/.config/PrusaSlicer prusaslicer`
+ - Command: `ln -s ~/.config/PrusaSlicer <workspace>\prusaslicer`
 
 #### Linux (Snap)
  - Location: `~/snap/prusa-slicer/current/.config/PrusaSlicer`
- - Command: `ln -s ~/snap/prusa-slicer/current/.config/PrusaSlicer prusaslicer`
+ - Command: `ln -s ~/snap/prusa-slicer/current/.config/PrusaSlicer <workspace>\prusaslicer`
  
 #### macOS
- - TODO
+ - Location: `~/Library/Application Support/PrusaSlicer`
+ - Command: `ln -s ~/Library/Application\ Support/PrusaSlicer <workspace>\prusaslicer`
 
 #### Windows
- - Location: `%APPDATA%\PrusaSlicer` (eg. `C:\Users\tgjon\AppData\Roaming\PrusaSlicer`)
- - cme.exe: `mklink \D %APPDATA%\PrusaSlicer %USERPROFILE%\PrusaSlicer`
-
-### SuperSlicer
-
-#### Linux
- - Location: `~/.config/SuperSlicer`
- - Command: `ln -s ~/.config/SuperSlicer superslicer`
-
-#### macOS
- - Location: `~/Library/Application Support/SuperSlicer`
- - Command: `ln -s ~/Library/Application\ Support/SuperSlicer superslicer`
-
-#### Windows
- - Location: `%APPDATA%\SuperSlicer` (eg. `C:\Users\tgjon\AppData\Roaming\SuperSlicer`)
- - Command (cmd.exe): `mklink \D %APPDATA%\SuperSlicer %USERPROFILE%\superslicer`
+ - Location: `%APPDATA%\PrusaSlicer`
+ - Command (cmd.exe): `mklink \D %APPDATA%\PrusaSlicer <workspace>\prusaslicer`
